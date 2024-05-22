@@ -1,0 +1,56 @@
+{
+  "name": "Biblioteca Cresol",
+  "projectId": "5d9e7df5-eef2-4ca2-b37f-109aeb189871",
+  "description": "A biblioteca da Cresol, reúne recursos e atividades que podem ser compartilhados e utilizados por outros processos",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.Mail.Activities": "1.23.0",
+    "UiPath.System.Activities": "[24.3.1]",
+    "UiPath.UIAutomation.Activities": "23.10.11",
+    "UiPath.WebAPI.Activities": "1.20.1"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.5.0",
+  "projectVersion": "2.0.13",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": "https://cresol.com.br/wp-content/uploads/2022/04/Logo-vertical-original.png"
+  },
+  "targetFramework": "Windows"
+}
